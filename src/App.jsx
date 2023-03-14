@@ -6,12 +6,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div className='container-search'>
-        <input type="text" />
-        <button>SSS</button>
+    <>
+    <h1>ddddd</h1>
+      <div className="App">
+        <div className="container-search">
+          <input className="input-search" type="text" />
+          <button>Send</button>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

@@ -4,3 +4,31 @@ margin: 0 auto;
  
 }
 
+.input-search{
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.802);
+    color: white;
+    padding: .4rem;
+    border: none;
+    width: 90%;
+    
+}
+.container-search{
+    width: 80vw;
+    margin-bottom: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+  .App {
+      display: flex;
+      place-items: center;
+      min-height: 100vh;
+      min-width: 100vw;
+      justify-content: center;
+      align-items: center;
+  }
+
+  button{
+    width: 8%;
+  }
+
