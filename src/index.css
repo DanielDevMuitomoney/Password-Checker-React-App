@@ -1,12 +1,15 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-body{
-  background-image:url("./assets/imgs/fundo.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center ;
-  background-size: cover;
-}
+  body {
+    background-image: url("./assets/imgs/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+  }
