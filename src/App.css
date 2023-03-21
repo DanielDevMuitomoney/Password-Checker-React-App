@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
 #root {
 
 margin: 0 auto;
+max-width: 100vw;
  
 }
 
@@ -10,14 +12,17 @@ margin: 0 auto;
     color: white;
     padding: .4rem;
     border: none;
-    width: 90%;
+    width: 90%;outline: none;
     
 }
+
 .container-search{
     width: 80vw;
     margin-bottom: 15%;
     display: flex;
     flex-wrap: nowrap;
+    
+    
 }
   .App {
       display: flex;
@@ -26,9 +31,44 @@ margin: 0 auto;
       min-width: 100vw;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
   }
 
   button{
     width: 8%;
   }
+
+.toast-fadeout {
+
+  color: white;
+  animation: fadeOut 4s forwards;
+transition: transform 0.3s ease-in-out;
+position: relative;
+  animation: move-up 1s ease-out forwards;
+font-family: 'Imprima', sans-serif;
+
+}
+
+
+@keyframes move-up {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: -50px;
+    /* ou a distância que você deseja mover a div para cima */
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 
